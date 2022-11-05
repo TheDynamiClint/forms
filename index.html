@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/jtp3wdd.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="tdc.ico">
+    <title>Sign Up!</title>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div id="hero">
+
+            <div id="logo_bar">
+                <img id="logo" src="tdc_logo.png">
+            </div>    
+
+        </div>
+
+        <div id="right-pane">
+
+            <h1>
+                This is not a real online service!  
+            </h1>
+            
+            <h2>    
+                You know you need something like this in your life to 
+                help you realize your deepest dreams.  Sign up <span class="italic">now</span> to get started.
+            </h2>
+            
+            <h3>
+                You <span class="italic">know</span> you want to.
+            </h3>
+
+            <div id="form_area">
+
+                <form id="form_one" action="#">
+
+                    <div id="form-legend">
+
+                        <legend>Let's do this!</legend>
+                        
+                    </div>
+
+                    <div id="form-fields">
+
+
+                            <div class="input-group">
+                                <label for="fname">first name</label>
+                                <input id="fname" name="fname" type="text" placeholder="Teri" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="lname">last name</label>
+                                <input id="lname" name="lname" type="text" placeholder="Smith" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">email</label>
+                                <input id="email" name="email" type="email" placeholder="name@email.com" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">phone number</label>
+                                <input id="phone" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="321-123-1234"required>
+                            </div>
+                            <div class="input-group">
+                                <label for="pw">password</label>
+                                <input id="pw" name="pw" type="password" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="cpw">confirm password</label>
+                                <input id="cpw" name="cpw" type="password" required>
+                            </div>
+
+                    </div>
+
+            </div>
+
+                    <input id="submit-btn" type="submit" value="Create Account">
+
+                </form>
+
+            <p>
+                Already have an account? <a href="#">Log in</a>
+            </p>
+
+        </div>
+
+    </div>
+    <script>
+         document.getElementById("form_one").addEventListener('submit', functSubmit(event));
+
+         function functSubmit(event) {
+
+            let pw = pw.value;
+            let cpw = cpw.value;
+
+            if (pw == cpw) {
+
+                document.getElementById(cpw).remove(error
+
+            }
+            
+            
+
+            }
+
+    </script>
+</body>
+</html>
